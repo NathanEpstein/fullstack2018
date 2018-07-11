@@ -266,7 +266,7 @@ std::vector<int> PolicyParser::policy(
 - Create many example searches (random, linear, and binary).
 - For each step in the searches, create an observation.
 - Input will be a tuple of current index, known floor, known ceiling, current value / target value (i.e. `{ 'location': 10, 'floor': 5, 'ceil': 12, 'ratio': 1.5 }`) encoded as a string.
-- Output will be the desired step size to locate the target value.
+- Reward will be steps to reach the target value.
 
 --
 
