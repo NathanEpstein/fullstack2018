@@ -26,8 +26,10 @@ https://github.com/NathanEpstein/Pavlov.js
 ### Two Distinct Pieces 
 
 1) Reinforcement learning implementation
+   - high level understanding of the algorithm and the problems it can solve
 
 2) Tools for cross-language transpilation
+  - value of and tools for transpilation from other languages to JS
 
 --
 
